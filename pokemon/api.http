@@ -1,0 +1,12 @@
+GET http://localhost:12390/pokemon/ditto
+### para crear un opkemon
+POST http://localhost:12390/pokemon
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}

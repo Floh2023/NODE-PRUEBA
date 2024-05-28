@@ -1,0 +1,27 @@
+{
+  "name": "segundo-node",
+  "version": "1.0.0",
+  "main": "1.http.js",
+  "scripts": {
+    "dev1": "nodemon 1.http.js",
+    "dev2": "nodemon routing.js",
+    "dev3": "node --watch 3.express.js",
+    "dev4": "node --watch app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.19.2",
+    "y": "^0.3.2",
+    "zod": "3.23.8"
+  },
+  "description": ""
+}

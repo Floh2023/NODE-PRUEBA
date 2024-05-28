@@ -1,0 +1,35 @@
+PATCH http://localhost:12349/movies/8cf7ae53-159d-434e-bc79-e190fcf7cf13
+Content-Type: application/json
+
+{ }
+
+#fgdfgdfg
+
+GET http://localhost:12347/movies?genre=action
+
+
+
+##
+
+GET  http://localhost:12345/movies
+
+### crear peliculs
+
+POST http://localhost:12347/movies
+Content-Type: application/json 
+
+{
+  
+  "title": "The God",
+  "year": 1975,
+  "director": "Francis Ford Coppola",
+  "duration": 175,
+  "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+  "genre": [
+    "Drama",
+    "Crime"
+  ]
+}
+
+///
+
