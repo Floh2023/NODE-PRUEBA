@@ -7,7 +7,7 @@
     "dev2": "nodemon routing.js",
     "dev3": "node --watch 3.express.js",
     "dev4": "node --watch app.js",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
